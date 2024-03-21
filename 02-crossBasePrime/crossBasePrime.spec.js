@@ -1,4 +1,4 @@
-const crossBasePrime = require('./crossbaseprime')
+const crossBasePrime = require('./crossBasePrime')
 
 test('Returns true for prime numbers in base 2', () => {
   expect(crossBasePrime(101, 2)).toBe(true)

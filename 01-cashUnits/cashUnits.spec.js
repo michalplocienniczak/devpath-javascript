@@ -1,4 +1,4 @@
-const cashUnits = require('./cashunits')
+const cashUnits = require('./cashUnits')
 
 test('Returns correct cash units for price 123.45', () => {
   expect(cashUnits(123.45)).toEqual({
